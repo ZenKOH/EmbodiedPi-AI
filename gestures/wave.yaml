@@ -1,0 +1,11 @@
+name: wave
+description: Friendly alternating front-leg wave
+frames:
+  - duration_ms: 250
+    positions: {front_left: 60, front_right: 120, body_lift: 95}
+  - duration_ms: 250
+    positions: {front_left: 120, front_right: 60, body_lift: 85}
+  - duration_ms: 250
+    positions: {front_left: 60, front_right: 120, body_lift: 95}
+  - duration_ms: 250
+    positions: {front_left: 90, front_right: 90, body_lift: 90}
