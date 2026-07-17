@@ -1,0 +1,9 @@
+name: nod
+description: Yes-like body nod
+frames:
+  - duration_ms: 250
+    positions: {body_lift: 80, front_left: 100, front_right: 80, rear_left: 85, rear_right: 95}
+  - duration_ms: 250
+    positions: {body_lift: 110, front_left: 80, front_right: 100, rear_left: 95, rear_right: 85}
+  - duration_ms: 250
+    positions: {body_lift: 90, front_left: 90, front_right: 90, rear_left: 90, rear_right: 90}
