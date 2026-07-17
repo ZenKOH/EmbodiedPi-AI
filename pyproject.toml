@@ -14,6 +14,7 @@ keywords = ["raspberry-pi", "embodied-ai", "robotics", "servo", "pca9685"]
 dependencies = [
   "fastapi>=0.111",
   "uvicorn>=0.30",
+  "python-multipart>=0.0.9",
   "pydantic>=2.7",
   "PyYAML>=6.0",
   "requests>=2.31"
