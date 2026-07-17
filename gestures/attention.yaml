@@ -1,0 +1,7 @@
+name: attention
+description: Alert posture for listening
+frames:
+  - duration_ms: 300
+    positions: {body_lift: 105, front_left: 80, front_right: 100, mid_left: 90, mid_right: 90, rear_left: 95, rear_right: 85}
+  - duration_ms: 300
+    positions: {body_lift: 100, front_left: 85, front_right: 95, mid_left: 90, mid_right: 90, rear_left: 90, rear_right: 90}
