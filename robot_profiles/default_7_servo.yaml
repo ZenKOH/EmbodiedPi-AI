@@ -1,0 +1,12 @@
+robot:
+  name: default_7_servo_companion
+  description: Seven-servo tabletop companion profile for expressive leg/body gestures
+  version: 0.1
+servos:
+  front_left:  {channel: 0, min_angle: 25, max_angle: 155, neutral: 90, max_speed_dps: 80}
+  front_right: {channel: 1, min_angle: 25, max_angle: 155, neutral: 90, max_speed_dps: 80, inverted: true}
+  mid_left:    {channel: 2, min_angle: 30, max_angle: 150, neutral: 90, max_speed_dps: 80}
+  mid_right:   {channel: 3, min_angle: 30, max_angle: 150, neutral: 90, max_speed_dps: 80, inverted: true}
+  rear_left:   {channel: 4, min_angle: 25, max_angle: 155, neutral: 90, max_speed_dps: 80}
+  rear_right:  {channel: 5, min_angle: 25, max_angle: 155, neutral: 90, max_speed_dps: 80, inverted: true}
+  body_lift:   {channel: 6, min_angle: 45, max_angle: 135, neutral: 90, max_speed_dps: 60}
