@@ -1,0 +1,9 @@
+name: shake_head
+description: No-like lateral sway
+frames:
+  - duration_ms: 250
+    positions: {front_left: 110, mid_left: 110, rear_left: 110, front_right: 75, mid_right: 75, rear_right: 75}
+  - duration_ms: 250
+    positions: {front_left: 75, mid_left: 75, rear_left: 75, front_right: 110, mid_right: 110, rear_right: 110}
+  - duration_ms: 250
+    positions: {front_left: 90, mid_left: 90, rear_left: 90, front_right: 90, mid_right: 90, rear_right: 90}
