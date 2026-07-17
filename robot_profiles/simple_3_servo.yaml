@@ -1,0 +1,8 @@
+robot:
+  name: simple_3_servo_companion
+  description: Minimal head-and-arms companion for first-time builders
+  version: 0.1
+servos:
+  head_tilt: {channel: 0, min_angle: 45, max_angle: 135, neutral: 90, max_speed_dps: 60}
+  left_arm:  {channel: 1, min_angle: 20, max_angle: 160, neutral: 90, max_speed_dps: 90}
+  right_arm: {channel: 2, min_angle: 20, max_angle: 160, neutral: 90, max_speed_dps: 90, inverted: true}
