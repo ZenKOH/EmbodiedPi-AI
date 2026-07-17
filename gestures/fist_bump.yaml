@@ -1,0 +1,9 @@
+name: fist_bump
+description: Gentle forward reach gesture
+frames:
+  - duration_ms: 300
+    positions: {front_left: 70, front_right: 110, mid_left: 95, mid_right: 85, body_lift: 100}
+  - duration_ms: 450
+    positions: {front_left: 135, front_right: 45, mid_left: 105, mid_right: 75, body_lift: 110}
+  - duration_ms: 350
+    positions: {front_left: 90, front_right: 90, mid_left: 90, mid_right: 90, body_lift: 90}
