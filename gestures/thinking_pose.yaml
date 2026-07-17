@@ -1,0 +1,7 @@
+name: thinking_pose
+description: Pause and tilt while considering a command
+frames:
+  - duration_ms: 500
+    positions: {body_lift: 105, front_left: 70, front_right: 115, mid_left: 95, mid_right: 85, rear_left: 90, rear_right: 90}
+  - duration_ms: 500
+    positions: {body_lift: 95, front_left: 80, front_right: 100, mid_left: 90, mid_right: 90, rear_left: 90, rear_right: 90}
